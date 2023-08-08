@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header{
+    background: #9ed0e6;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    gap: 7rem;
+}
+
+header a:hover {
+    background: #b796ac;
+    transform: scale(1.1);
+    transition: trasnform.3s
+
+}
