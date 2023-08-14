@@ -11,6 +11,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 
@@ -34,4 +38,12 @@ header a:hover {
     transform: scale(1.1);
     transition: trasnform.3s
 
+}
+section{
+    border: 1px solid red;
+    height: calc(100vh - 5rem);
+}
+
+#listas {
+    margin-top: 5rem;
 }
